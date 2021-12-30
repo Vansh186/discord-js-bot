@@ -64,6 +64,7 @@ module.exports = (client) => {
       `,
       true
     )
+    .addField("Owner", "Van.sh07", false)
     .addField("Node Js version", process.versions.node, false)
     .addField("Uptime", "```" + timeformat(process.uptime()) + "```", false);
 
